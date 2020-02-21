@@ -6,7 +6,6 @@ public class Alumnos_normales extends Alumnos {
 
     private int conocimiento;
     private int aprendizaje;
-    private ArrayList examenes = new ArrayList();
 
     public Alumnos_normales() {
     }
@@ -32,17 +31,9 @@ public class Alumnos_normales extends Alumnos {
         this.aprendizaje = aprendizaje;
     }
 
-    public ArrayList getExamenes() {
-        return examenes;
-    }
-
-    public void setExamenes(ArrayList examenes) {
-        this.examenes = examenes;
-    }
-
     @Override
     public String toString() {
-        return "Alumnos_normales{" + "conocimiento=" + conocimiento + ", aprendizaje=" + aprendizaje + ", examenes=" + examenes + '}';
+        return nombre;
     }
 
 }
