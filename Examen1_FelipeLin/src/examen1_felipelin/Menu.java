@@ -842,15 +842,21 @@ public class Menu extends javax.swing.JFrame {
                     jDialog1.setVisible(true);
                     jTabbedPane1.setVisible(false);
                     jDialog1.setLocationRelativeTo(null);
+                    tf_user.setText("");
+                    tf_pass.setText("");
 
                 } else if (username.equals(tutores.get(i).getUsuario()) && password.equals(tutores.get(i).getPassword())) {
                     JOptionPane.showMessageDialog(this, "Bienvenido Tutor");
+                    jDialog2.setVisible(true);
+                    jTabbedPane1.setVisible(false);
+                    jDialog2.setLocationRelativeTo(null);
+                    tf_user.setText("");
+                    tf_pass.setText("");
 
                 }
 
             }
-            tf_user.setText("");
-            tf_pass.setText("");
+
         }
     }//GEN-LAST:event_jButton1MouseClicked
 
