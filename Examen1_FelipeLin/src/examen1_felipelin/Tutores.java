@@ -12,8 +12,8 @@ public class Tutores extends Alumnos {
     public Tutores() {
     }
 
-    public Tutores(int ganancias, int nivelE) {
-        this.ganancias = ganancias;
+    public Tutores(int nivelE, String nombre, int edad, String carrera, String lugarN, String numeroC, String usuario, String password) {
+        super(nombre, edad, carrera, lugarN, numeroC, usuario, password);
         this.nivelE = nivelE;
     }
 

@@ -11,8 +11,8 @@ public class Alumnos_normales extends Alumnos {
     public Alumnos_normales() {
     }
 
-    public Alumnos_normales(int conocimiento, int aprendizaje) {
-        this.conocimiento = conocimiento;
+    public Alumnos_normales(int aprendizaje, String nombre, int edad, String carrera, String lugarN, String numeroC, String usuario, String password) {
+        super(nombre, edad, carrera, lugarN, numeroC, usuario, password);
         this.aprendizaje = aprendizaje;
     }
 
