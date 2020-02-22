@@ -51,7 +51,7 @@ public class Tutores extends Alumnos {
 
     @Override
     public String toString() {
-        return "Tutores{" + "clases=" + clases + ", ganancias=" + ganancias + ", tutorias=" + tutorias + ", nivelE=" + nivelE + '}';
+        return nombre;
     }
 
 }
