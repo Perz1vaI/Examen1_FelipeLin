@@ -6,15 +6,16 @@ public class Tutores extends Alumnos {
 
     private ArrayList clases = new ArrayList();
     private int ganancias;
-    private ArrayList tutorias = new ArrayList();
+    private int tutorias;
     private int nivelE;
 
     public Tutores() {
     }
 
-    public Tutores(int nivelE, String nombre, int edad, String carrera, String lugarN, String numeroC, String usuario, String password) {
+    public Tutores(int tutorias,int nivelE, String nombre, int edad, String carrera, String lugarN, String numeroC, String usuario, String password) {
         super(nombre, edad, carrera, lugarN, numeroC, usuario, password);
         this.nivelE = nivelE;
+        this.tutorias = tutorias;
     }
 
     public ArrayList getClases() {
@@ -33,11 +34,11 @@ public class Tutores extends Alumnos {
         this.ganancias = ganancias;
     }
 
-    public ArrayList getTutorias() {
+    public int getTutorias() {
         return tutorias;
     }
 
-    public void setTutorias(ArrayList tutorias) {
+    public void setTutorias(int tutorias) {
         this.tutorias = tutorias;
     }
 

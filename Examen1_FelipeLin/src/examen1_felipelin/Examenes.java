@@ -47,7 +47,7 @@ public class Examenes {
 
     @Override
     public String toString() {
-        return "Examenes{" + "conocimiento=" + conocimiento + ", tema=" + tema + ", puntaje=" + puntaje + ", clase=" + clase + '}';
+        return clase;
     }
 
 }
